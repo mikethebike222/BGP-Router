@@ -5,7 +5,7 @@ import subprocess
 import sys
 import re
 
-EXECUTABLE_NAME = "4700router"
+EXECUTABLE_NAME = "BGProuter"
 RUN_SCRIPT_NAME = "run"
 CONFIG_DIR = "configs"
 
