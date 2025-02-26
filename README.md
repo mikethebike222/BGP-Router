@@ -1,3 +1,5 @@
+Overview
+
 This project implements a simplified BGP router that manages route announcements, revocations, and data packet forwarding within a simulated network.
 The router adheres to BGP protocol rules, including route aggregation, relationship-based forwarding, and longest prefix matching.
 Key Features Include, 
@@ -14,9 +16,12 @@ Simulator Integration:
     - Compatible with provided test cases to validate correctness and performance.
 
 Installation:
-After downloading the program there are no dependencies so to run a test command use the run scripting command as seen below
+After you clone the repository, there are no dependencies so to run a test command use the run scripting command to do a single test caseas seen below
+
 ./run configs/1-1-simple-send.conf
-In order to run all test commands use ./test
+
+In order to run all test commands use, 
+./test
 
 Further Improvements to be made:
     - Optimize aggregation/disaggregation to avoid full table rebuilds.
