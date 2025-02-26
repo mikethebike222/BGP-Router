@@ -6,7 +6,7 @@ Key Features Include,
 Multi-Socket Management:
     - Uses select() to handle multiple UDP sockets for simultaneous communication with neighboring routers.
 Route Management:
-    - Processes update and withdraw messages to maintain a forwarding table.
+    - Processes update and withdraw messages to maintain a forwarding table.  
     - Aggregates adjacent subnets with matching attributes to compress the table.
     - Disaggregates routes when withdrawals occur, rebuilding the table from stored updates.
 Data Forwarding:
