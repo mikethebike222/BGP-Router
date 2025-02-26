@@ -24,4 +24,4 @@ In order to run all test commands use,
 ./test
 
 Further Improvements to be made:
-    - Optimize aggregation/disaggregation to avoid full table rebuilds.
+    Optimize aggregation/disaggregation to avoid full table rebuilds.
