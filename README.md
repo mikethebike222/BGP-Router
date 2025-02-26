@@ -16,7 +16,7 @@ Simulator Integration:
     - Compatible with provided test cases to validate correctness and performance.
 
 Installation:
-After you clone the repository, there are no dependencies so to run a test command use the run scripting command to do a single test caseas seen below
+After you clone the repository make sure to give the files 'run', 'BGProuter', and 'test' the executable permission. There are no external libraries so to run a test command just use the run scripting command to do a single test case as seen below
 
 ./run configs/1-1-simple-send.conf
 
