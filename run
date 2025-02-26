@@ -24,7 +24,7 @@ def log(caller, msg):
 
 #### PARAMETERS
 
-EXECUTABLE_NAME = "4700router"
+EXECUTABLE_NAME = "BGProuter"
 
 def get_config(config_file):
   # Load config file
