@@ -27,6 +27,3 @@ There are no external libraries so to run a test command just use the run script
 
 In order to run all test commands use,   
 ./test
-
-Further Improvements to be made:   
-    Optimize aggregation/disaggregation to avoid full table rebuilds.
